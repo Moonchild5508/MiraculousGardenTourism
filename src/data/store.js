@@ -9,16 +9,16 @@ const STORAGE_KEYS = {
 
 const defaultEvents = [
   { id: '1', title: 'Spring Bloom Festival', park: 'garden', date: '2025-03-15', endDate: '2025-03-30', description: 'Celebrate spring with thousands of tulips and daffodils.', image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80' },
-  { id: '2', title: 'Butterfly Week', park: 'butterfly', date: '2025-04-01', endDate: '2025-04-07', description: 'Special guided tours and butterfly releases.', image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80' },
+  { id: '2', title: 'Butterfly Week', park: 'butterfly', date: '2025-04-01', endDate: '2025-04-07', description: 'Special guided tours and butterfly releases.', image: 'https://images.unsplash.com/photo-1483809715206-0499044b5b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
   { id: '3', title: 'Rose Parade', park: 'garden', date: '2025-05-10', endDate: '2025-05-12', description: 'Stunning rose displays and live music.', image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80' },
 ];
 
 const defaultGallery = [
   { id: '1', title: 'Floral Heart', park: 'garden', url: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80' },
-  { id: '2', title: 'Butterfly Haven', park: 'butterfly', url: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80' },
+  { id: '2', title: 'Butterfly Haven', park: 'butterfly', url: 'https://images.unsplash.com/photo-1483809715206-0499044b5b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
   { id: '3', title: 'Sunflower Field', park: 'garden', url: 'https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=800&q=80' },
-  { id: '4', title: 'Lavender Path', park: 'garden', url: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80' },
-  { id: '5', title: 'Tropical Butterflies', park: 'butterfly', url: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80' },
+  { id: '4', title: 'Lavender Path', park: 'garden', url: 'https://images.unsplash.com/photo-1719176411275-2905222eca22?q=80&w=1199&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { id: '5', title: 'Tropical Butterflies', park: 'butterfly', url: 'https://images.unsplash.com/photo-1483809715206-0499044b5b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
   { id: '6', title: 'Rose Arch', park: 'garden', url: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80' },
 ];
 
@@ -65,7 +65,7 @@ const defaultParks = {
       { id: '3', name: 'Feeding Station', description: 'Hand-feed butterflies with fruit.' },
       { id: '4', name: 'Photo Garden', description: 'Picture-perfect butterfly backdrops.' },
     ],
-    image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=80',
+    image: 'https://images.unsplash.com/photo-1483809715206-0499044b5b69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 };
 
