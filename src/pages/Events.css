@@ -1,0 +1,120 @@
+.events-hero {
+  position: relative;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.events-hero .hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.events-hero .hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.events-hero .hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(45, 90, 39, 0.4) 0%, rgba(45, 90, 39, 0.75) 100%);
+}
+
+.events-hero .hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 3rem 1.5rem;
+}
+
+.events-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.events-hero p {
+  color: var(--blossom);
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.event-card-full {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 8px 32px var(--shadow);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.event-card-full:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px var(--shadow);
+}
+
+.event-card-image {
+  position: relative;
+  aspect-ratio: 16/9;
+}
+
+.event-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--forest);
+  color: var(--white);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.event-card-body {
+  padding: 1.5rem;
+}
+
+.event-dates {
+  font-size: 0.9rem;
+  color: var(--mint);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.event-card-body h3 {
+  font-family: var(--font-display);
+  color: var(--forest);
+  margin-bottom: 0.5rem;
+}
+
+.event-card-body p {
+  color: var(--text-muted);
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .event-card-full {
+    grid-template-columns: 320px 1fr;
+  }
+
+  .event-card-image {
+    aspect-ratio: auto;
+    min-height: 200px;
+  }
+}
